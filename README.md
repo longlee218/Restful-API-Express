@@ -13,10 +13,7 @@ the test case. So, after I finished this project, I want to share to you what am
 - Tạo docs cho API sử dụng Swagger
 - Cấu hình cơ bản CORS
 
-
-**Mục lục**
-
-###Cài đặt
+### Cài đặt
 
   Vào thư mục `/api` chạy lệnh sau
   - Linux
@@ -25,7 +22,7 @@ the test case. So, after I finished this project, I want to share to you what am
     npm install && npm install -g
 
 - Windows
-	
+
 
     npm install; npm install -g
 
@@ -45,3 +42,4 @@ Vào thư mục `/test` và chạy lệnh `npm install`
 Để thực hiện test API chạy lệnh sau
 
     npm run dev
+1
