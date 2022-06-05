@@ -1,0 +1,31 @@
+{
+    "name": "volcanoes",
+    "version": "1.0.0",
+    "description": "",
+    "main": "app.js",
+    "scripts": {
+        "start": "node app.js",
+        "dev": "nodemon app.js",
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "author": "longlee218",
+    "license": "ISC",
+    "dependencies": {
+        "body-parser": "^1.20.0",
+        "chalk": "^4.1.2",
+        "cors": "^2.8.5",
+        "dotenv": "^16.0.1",
+        "express": "^4.18.1",
+        "helmet": "^5.1.0",
+        "jsonwebtoken": "^8.5.1",
+        "knex": "^2.1.0",
+        "morgan": "^1.10.0",
+        "mysql2": "^2.3.3",
+        "nanoid": "^3.3.4",
+        "swagger-jsdoc": "^6.2.1",
+        "swagger-ui-express": "^4.4.0"
+    },
+    "bin": {
+        "migrate": "./bin/migrate.js"
+    }
+}
