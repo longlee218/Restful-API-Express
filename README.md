@@ -18,13 +18,11 @@ the test case. So, after I finished this project, I want to share to you what am
   Vào thư mục `/api` chạy lệnh sau
   - Linux
   		
-
-    npm install && npm install -g
+        npm install && npm install -g
 
 - Windows
 
-
-    npm install; npm install -g
+        npm install; npm install -g
 
 Dùng file `dump.sql` để tạo bảng và dữ liệu mặc định hoặc chạy lệnh: `migrate` để tạo các bảng cở sở dữ liệu (lưu ý lệnh migrate chỉ tạo bảng **users**)
 
@@ -32,14 +30,14 @@ Sau khi thực hiện xong truy cập vào **http://localhost:3001** để kiể
 
 
 
-###Swagger
+### Swagger
 Truy cập vào đường dẫn **http://localhost:3001/api-docs** để đọc tài liệu về API.
 
-###Test
+### Test
 
 Vào thư mục `/test` và chạy lệnh `npm install`
 
 Để thực hiện test API chạy lệnh sau
 
+
     npm run dev
-1
