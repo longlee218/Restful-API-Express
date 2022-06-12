@@ -40,4 +40,4 @@ Vào thư mục `/test` và chạy lệnh `npm install`
 Để thực hiện test API chạy lệnh sau
 
 
-    npm run dev
+    npm run test
